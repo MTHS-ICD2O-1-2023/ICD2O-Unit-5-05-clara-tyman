@@ -1,4 +1,33 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Clara Tyman
+* Created on: May 2024
 * This file contains the CSS for index.html
 */
+
+body {
+  background-color: rgb(214 181 236);
+}
+
+.content {
+  padding: 1%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.mdl-layout__content {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  width: 300px;
+}
